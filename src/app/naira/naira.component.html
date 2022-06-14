@@ -1,2 +1,2 @@
 <label for="naira">Naira</label>
-<input type="text" class="form-control" id="naira">
+<input type="number" (keyup)="updateDollar(naira.value)" #naira class="form-control" id="naira">
